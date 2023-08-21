@@ -240,7 +240,7 @@ given codec: JsonValueCodec[User] = JsonCodecMaker.make
 ```
 
 That's it! You have generated an instance of `com.github.plokhotnyuk.jsoniter_scala.core.JsonValueCodec` for the
-whole nested data structure. No need to derive intemendiate codecs if you use the default or the same derivation
+whole nested data structure. No need to derive intermendiate codecs if you use the default or the same derivation
 configuration for them.
 
 Now use it for parsing and serialization from/to `String`:
